@@ -1,0 +1,26 @@
+{
+    "name": "boxphp/tenant",
+    "description": "BoxPHP Tenant - Multi-tenant Support",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BoxPHP\\Tenant\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "boxphp/core": "dev-master",
+        "boxphp/server": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../core"
+        },
+        {
+            "type": "path",
+            "url": "../server"
+        }
+    ]
+}
